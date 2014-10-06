@@ -7,7 +7,7 @@ using Android.Content.Res;
 using Android.Telephony;
 using Android.Views;
 using Android.Webkit;
-using Fmg.XamForms.Renderers.Markdown.Core;
+using Fmg.XamForms.Renderers.Markdown;
 using Fmg.XamForms.Renderers.Markdown.Droid;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;

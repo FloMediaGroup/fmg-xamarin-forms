@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System.Text;
-using Fmg.XamForms.Renderers.Markdown.Core;
+using Fmg.XamForms.Renderers.Markdown;
 using Fmg.XamForms.Renderers.Markdown.Touch;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;

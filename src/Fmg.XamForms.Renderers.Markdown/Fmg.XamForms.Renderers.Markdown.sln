@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fmg.XamForms.Renderers.Markdown.Core", "Fmg.XamForms.Renderers.Markdown.Core\Fmg.XamForms.Renderers.Markdown.Core.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fmg.XamForms.Renderers.Markdown.Touch", "Fmg.XamForms.Renderers.Markdown.Touch\Fmg.XamForms.Renderers.Markdown.Touch.csproj", "{C5D6AC3F-7B83-4CC9-B2FE-0FCB63319106}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fmg.XamForms.Renderers.Markdown.Droid", "Fmg.XamForms.Renderers.Markdown.Droid\Fmg.XamForms.Renderers.Markdown.Droid.csproj", "{E89240BB-145C-4491-B9CE-7E2D760DEE11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fmg.XamForms.Renderers.Markdown", "Fmg.XamForms.Renderers.Markdown\Fmg.XamForms.Renderers.Markdown.csproj", "{392AC29F-91F5-4053-92C3-382ACE8A641A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5D6AC3F-7B83-4CC9-B2FE-0FCB63319106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5D6AC3F-7B83-4CC9-B2FE-0FCB63319106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D6AC3F-7B83-4CC9-B2FE-0FCB63319106}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{E89240BB-145C-4491-B9CE-7E2D760DEE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E89240BB-145C-4491-B9CE-7E2D760DEE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E89240BB-145C-4491-B9CE-7E2D760DEE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392AC29F-91F5-4053-92C3-382ACE8A641A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392AC29F-91F5-4053-92C3-382ACE8A641A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392AC29F-91F5-4053-92C3-382ACE8A641A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392AC29F-91F5-4053-92C3-382ACE8A641A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 using System.Reflection;
 using Xamarin.Forms;
 
-namespace Fmg.XamForms.Renderers.Markdown.Core
+namespace Fmg.XamForms.Renderers.Markdown
 {
     public class MarkdownView : View
     {
@@ -35,7 +35,7 @@ namespace Fmg.XamForms.Renderers.Markdown.Core
         private static string GetDefaultStyle()
         {
             var assembly = typeof (MarkdownView).GetTypeInfo().Assembly;
-            const string resourceName = "Fmg.XamForms.Renderers.Markdown.Core.Styles.Default.css";
+            const string resourceName = "Fmg.XamForms.Renderers.Markdown.Styles.Default.css";
 
             using (var stream = assembly.GetManifestResourceStream(resourceName))
             using (var reader = new StreamReader(stream))

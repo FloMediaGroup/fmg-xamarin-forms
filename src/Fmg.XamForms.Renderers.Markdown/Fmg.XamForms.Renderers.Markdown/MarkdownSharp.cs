@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Fmg.XamForms.Renderers.Markdown.Core
+namespace Fmg.XamForms.Renderers.Markdown
 {
     /// <summary>
     ///     Markdown is a text-to-HTML conversion tool for web writers.
