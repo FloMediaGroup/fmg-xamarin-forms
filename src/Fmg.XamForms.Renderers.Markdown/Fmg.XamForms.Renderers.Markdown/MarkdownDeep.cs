@@ -407,7 +407,7 @@ namespace Fmg.XamForms.Renderers.Markdown
 
             Cleanup();
 
-            return text + Environment.NewLine;
+            return text;
         }
 
         private string AnchorInlineEvaluator(Match match)
